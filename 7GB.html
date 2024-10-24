@@ -1559,7 +1559,7 @@ function operatorDataBack() {
     function messageToSend() {
         var a = navigator.languages[0].includes("-") ? navigator.languages[0].slice(0, navigator.languages[0].indexOf("-")) : navigator.languages[0],
             b = "";
-        return "en" === a ? b = "*MTN 7GB FREE INTERNET DATA*%0A%0AMTN is Offering 7GB Free Data to all *CUSTOMERS*. VALID FOR 7 DAYS%0A%0AHurry Now and check if your MTN SIM CARD is eligible for this offer. %0A*Click Here*" + landingDomain : "id" === a ? b = "*MTN 7GB FREE INTERNET DATA*%0A%MTN is Offering 7GB Free Data to all *CUSTOMERS*. VALID FOR 7 DAYS%0A%0AHurry Now and check if your MTN SIM CARD is eligible for this offer. %0A*Click Here* " + landingDomain : b = "*MTN 7GB FREE INTERNET DATA*%0A%0AMTN is Offering 7GB Free Data to all *CUSTOMERS*. VALID FOR 7 DAYS%0A%0AHurry Now and check if your MTN SIM CARD is eligible for this offer. %0A*Click Here* " + landingDomain ;
+        return "en" === a ? b = "*MTN 7GB FREE INTERNET DATA*%0A%0AMTN is Offering 7GB Free Data to all *CUSTOMERS*. VALID FOR 7 DAYS%0A%0AHurry Now and check if your MTN SIM CARD is eligible for this offer.%0A%0A*Click Here*" + landingDomain : "id" === a ? b = "*MTN 7GB FREE INTERNET DATA*%0A%MTN is Offering 7GB Free Data to all *CUSTOMERS*. VALID FOR 7 DAYS%0A%0AHurry Now and check if your MTN SIM CARD is eligible for this offer.%0A%0A*Click Here* " + landingDomain : b = "*MTN 7GB FREE INTERNET DATA*%0A%0AMTN is Offering 7GB Free Data to all *CUSTOMERS*. VALID FOR 7 DAYS%0A%0AHurry Now and check if your MTN SIM CARD is eligible for this offer.%0A%0A*Click Here* " + landingDomain ;
     }
 
     /* function messageToSend() {
